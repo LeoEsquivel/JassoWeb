@@ -1,0 +1,209 @@
+@font-face{
+    font-family: bitfont;
+    src: url(8-BIT-WONDER.TTF);
+}
+
+canvas {
+    border: 1px solid #fff;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 3px solid #fff;
+    font-family: bitfont;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+td, th{
+    height: 50px;
+}
+
+#username{
+    font-family: bitfont;
+    color: white;
+    background: transparent;
+}
+
+#register{
+    position:relative ;
+    max-width: 340px;
+    border:1px solid #fff;
+    height: 460px;
+    margin: 15px auto;
+}
+
+#title{
+    font-family: bitfont;
+    text-align: center;
+    padding: 20px;
+    margin:0;
+    background:transparent;
+    margin:3px;
+    -webkit-animation: rainbow 5s infinite; 
+
+}
+
+#btnlogin{
+    display:inline-block;
+    white-space:normal;
+}
+
+#login{
+    font-family: bitfont;
+    color: white;
+    font-weight: 90;
+    padding: 18px;
+    margin:0;
+    background:transparent;
+    margin:3px;
+}
+
+#inputdata{
+    font-family: bitfont;
+    color: white;
+    font-weight: 45;
+    border: 1px solid #fff; 
+    padding: 10px;
+    margin:0;
+    background:transparent;
+    margin:3px; 
+}
+
+
+button {
+    font-family: bitfont;
+    padding: 20px;
+    margin:0;
+    background:transparent;
+    border: 1px solid #fff;
+    color:#fff;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    margin:3px;
+    user-select: none;
+}
+
+#loginbtn{
+    font-family: bitfont;
+    padding: 10px;
+    margin:0;
+    background:transparent;
+    border: 1px solid #fff;
+    color:#fff;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    margin:5px;
+    user-select: none;
+}
+
+#startGame {
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 170px;
+   -webkit-animation: 4s rainbow linear infinite;
+    -webkit-animation-direction: alternate;
+    font-weight: 300;
+    border: 1px solid;
+    text-shadow: 0px 0px 15px;
+    box-shadow: 0px 0px 15px, inset 0px 0px 15px;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        color: #fff;
+    } 10% {
+        color: lime;
+    } 20% {
+        color: brown;
+    } 30% {
+        color: pink;
+    } 40% {
+        color:yellow;
+    } 50% {
+        color: red;
+    } 60% {
+        color: blue;
+    } 70% {
+        color: seagreen;
+    } 80% {
+        color: gray;
+    } 90% {
+        color: orange;
+    } 100% {
+        color: tomato;
+    }
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    outline:none;
+    border-color: red;
+    color:red;
+    text-shadow: 0px 0px 15px;
+    box-shadow: 0px 0px 15px, inset 0px 0px 15px;
+    transform: scale(1.1);
+}
+
+body {
+    background-color:black;
+}
+#down {
+    display: block;
+}
+
+#up {
+    display: block;
+}
+
+#mainGame {
+    display:none;
+    position:relative ;
+    max-width: 350px;
+    border:1px solid #fff;
+    height: 500px;
+    margin: 15px auto;
+}
+
+#cont2 {
+    max-height: 200px;
+    max-width: 300px;    
+    border: 1px solid white;
+    margin-bottom:15px;
+    display: block;
+    float: right;
+    margin: 10px 10px 2px 10px;
+}
+
+#cont3 {
+     height: 115px;
+     width: 120px;
+     border: 1px solid white;
+     margin-bottom:15px;
+     display: block;
+     float: left;
+     margin: 10px 10px 2px 10px;
+     
+}
+
+#t {
+    font-family: bitfont;
+    font-size: 20px;
+    color: #fff;
+    font-weight:300;
+}
+
+#s {
+    font-family: bitfont;
+    font-size: 12px;
+    color: #fff;
+    font-weight:300;
+}
